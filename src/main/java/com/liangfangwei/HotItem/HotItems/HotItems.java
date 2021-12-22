@@ -170,6 +170,7 @@ public class HotItems {
          * @param out
          * @throws Exception
          */
+        @Override
         public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
 
             // 取出状态所有数据

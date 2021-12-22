@@ -11,10 +11,12 @@ package com.liangfangwei.HotItem.Bean;/**
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@ToString
 
 public class PageViewCount {
     private String url;
