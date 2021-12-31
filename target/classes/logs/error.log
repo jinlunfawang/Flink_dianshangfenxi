@@ -1,0 +1,4 @@
+2021-12-30 18:26:00 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:55:26 下午 [Thread: CepOperator -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/1)][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck$OrderTimeoutSelect.timeout(OrderCheck.java:103) ]
+ERROR:rrrr_locker: get locker fail: key={create=[OrderInfo(orderId=34767, status=create, payId=, timeStamp=1558430949)]}

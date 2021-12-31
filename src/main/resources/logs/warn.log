@@ -1,0 +1,42 @@
+2021-12-30 18:17:45 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:87) ]
+WARN:Log file environment variable 'log.file' is not set.
+2021-12-30 18:17:45 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:93) ]
+WARN:JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'Key: 'web.log.path' , default: null (fallback keys: [{key=jobmanager.web.log.path, isDeprecated=true}])'.
+2021-12-30 18:17:47 下午 [Thread: Thread-8][ Class:org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor >> Method: org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor$LoggingHandler.handleViolation(AscendingTimestampExtractor.java:140) ]
+WARN:Timestamp monotony violated: 1558430893 < 1558430899
+2021-12-30 18:18:14 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:18:17 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:87) ]
+WARN:Log file environment variable 'log.file' is not set.
+2021-12-30 18:18:17 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:93) ]
+WARN:JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'Key: 'web.log.path' , default: null (fallback keys: [{key=jobmanager.web.log.path, isDeprecated=true}])'.
+2021-12-30 18:18:18 下午 [Thread: Thread-8][ Class:org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor >> Method: org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor$LoggingHandler.handleViolation(AscendingTimestampExtractor.java:140) ]
+WARN:Timestamp monotony violated: 1558430893 < 1558430899
+2021-12-30 18:18:52 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:18:54 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:87) ]
+WARN:Log file environment variable 'log.file' is not set.
+2021-12-30 18:18:54 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:93) ]
+WARN:JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'Key: 'web.log.path' , default: null (fallback keys: [{key=jobmanager.web.log.path, isDeprecated=true}])'.
+2021-12-30 18:18:55 下午 [Thread: Thread-8][ Class:org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor >> Method: org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor$LoggingHandler.handleViolation(AscendingTimestampExtractor.java:140) ]
+WARN:Timestamp monotony violated: 1558430893 < 1558430899
+2021-12-30 18:19:36 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:19:39 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:87) ]
+WARN:Log file environment variable 'log.file' is not set.
+2021-12-30 18:19:39 下午 [Thread: main][ Class:org.apache.flink.runtime.webmonitor.WebMonitorUtils >> Method: org.apache.flink.runtime.webmonitor.WebMonitorUtils$LogFileLocation.find(WebMonitorUtils.java:93) ]
+WARN:JobManager log files are unavailable in the web dashboard. Log file location not found in environment variable 'log.file' or configuration key 'Key: 'web.log.path' , default: null (fallback keys: [{key=jobmanager.web.log.path, isDeprecated=true}])'.
+2021-12-30 18:19:40 下午 [Thread: Thread-8][ Class:org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor >> Method: org.apache.flink.streaming.api.functions.timestamps.AscendingTimestampExtractor$LoggingHandler.handleViolation(AscendingTimestampExtractor.java:140) ]
+WARN:Timestamp monotony violated: 1558430893 < 1558430899
+2021-12-30 18:22:54 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:23:18 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:24:03 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:25:42 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:26:00 下午 [Thread: main][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck.main(OrderCheck.java:58) ]
+ERROR:Start to verify User 111
+2021-12-30 18:55:26 下午 [Thread: CepOperator -> (Sink: Print to Std. Out, Sink: Print to Std. Out) (1/1)][ Class:com.liangfangwei.HotItem.OrderCheck.OrderCheck >> Method: com.liangfangwei.HotItem.OrderCheck.OrderCheck$OrderTimeoutSelect.timeout(OrderCheck.java:103) ]
+ERROR:rrrr_locker: get locker fail: key={create=[OrderInfo(orderId=34767, status=create, payId=, timeStamp=1558430949)]}
