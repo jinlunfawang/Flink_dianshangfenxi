@@ -43,7 +43,7 @@ import java.util.Map;
  *
  * @author :LiangFangWei
  * @date: 2021-12-26 17:11
- * @description: 连续登陆失败检测 输出两秒内登陆失败两次的记录
+ * @description: 连续登陆失败检测 输出两秒内登陆失败3次的记录
  */
 
 

@@ -33,6 +33,6 @@ import lombok.Data;
 @AllArgsConstructor
 public class BlackAdUerInfo {
     private String uerId;
-    private String province;
+    private String adId;
     private String count;
 }

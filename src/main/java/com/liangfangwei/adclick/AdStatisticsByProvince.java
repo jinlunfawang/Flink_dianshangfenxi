@@ -77,7 +77,7 @@ public class AdStatisticsByProvince {
         // 过滤掉异常的流数据
         SingleOutputStreamOperator<AdvertInfo> fliterBlackStream = processStream1
                 .keyBy("userId", "adId")
-                .process(new BlackUserProcess(2));
+                .process(new BlackUserProcess(3));
 
         DataStream<AdOutputInfo> resultStream = fliterBlackStream
                 .keyBy("province")

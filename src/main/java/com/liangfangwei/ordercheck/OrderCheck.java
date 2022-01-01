@@ -81,9 +81,11 @@ public class OrderCheck {
                 return "pay".equals(value.getStatus());
             }
     }).within(Time.minutes(15));
+        // 3. 匹配模式
         PatternStream<OrderInfo> orderStream = CEP.pattern(objectSingleOutputStreamOperator.keyBy("orderId"), orderPayPattern);
         OutputTag<OrderTimeoutInfo> outputTag = new OutputTag<OrderTimeoutInfo>("timeoutStream") {
         };
+        // 4. 筛选输出匹配上和超时事件
         SingleOutputStreamOperator<OrderTimeoutInfo> resultStream = orderStream.select(outputTag, new OrderTimeoutSelect(), new OrderPaySelect());
         resultStream.print("payed normally");
         resultStream.getSideOutput(outputTag).print("timeout");

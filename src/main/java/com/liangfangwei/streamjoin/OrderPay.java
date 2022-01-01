@@ -37,7 +37,7 @@ import org.apache.flink.util.OutputTag;
  * -          佛祖保佑             永无BUG
  *
  * @author :LiangFangWei
- * @description: 检测订单是否是否到账
+ * @description: 检测订单是否到账
  * @date: 2021-12-30 19:23
  */
 

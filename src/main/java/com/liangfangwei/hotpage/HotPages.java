@@ -171,8 +171,8 @@ public class HotPages {
 
 
         /**
-         * 输出list中的结果
-         *
+         * 输出map中的结果
+         * 定时器触发的时间:  watermark >= 定时时间
          * @param timestamp
          * @param ctx
          * @param out
