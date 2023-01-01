@@ -64,7 +64,8 @@ public class AdStatisticsByProvince {
         StreamExecutionEnvironment executionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment();
         executionEnvironment.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
         executionEnvironment.setParallelism(1);
-        DataStream<String> inputStream = executionEnvironment.readTextFile("/Users/liangfangwei/IdeaProjects/flinkUserAnalays/data_file/AdClickLog.csv");
+        DataStream<String> inputStream = executionEnvironment.readTextFile("." +
+                "/data_file/AdClickLog.csv");
         DataStream<AdvertInfo> processStream1 = inputStream.map(line -> {
             String[] split = line.split(",");
             return new AdvertInfo(split[0], split[1], split[2], Long.parseLong(split[4]));
